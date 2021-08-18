@@ -17,8 +17,6 @@
 
 .header {
   background-color: #635854;
-  padding-top: 12px;
-  padding-bottom: 12px;
   border-bottom: 4px solid #3596f5;
 }
 
@@ -30,6 +28,10 @@
   align-items: center;
 }
 
+.logo-link {
+  margin-top: 6px;
+}
+
 .navbar-menu {
   list-style: none;
   display: flex;
@@ -39,6 +41,10 @@
 .navbar-item {
   margin-left: 40px;
   margin-right: 40px;
+  padding: 9px 16px;
+}
+.navbar-item:hover {
+  background-color: #3596f5;
 }
 
 .navbar-link {
