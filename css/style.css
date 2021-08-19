@@ -85,6 +85,10 @@
   cursor: pointer;
 }
 
+path.current-floor {
+  opacity: 1;
+}
+
 .main-info {
   flex-grow: 1;
   text-align: center;
